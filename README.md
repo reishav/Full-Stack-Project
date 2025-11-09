@@ -53,13 +53,7 @@ A full-featured e-commerce platform built with modern web technologies, offering
 
 ### Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/vinayak746/Mavericks.git
-   cd Mavericks
-   ```
-
-2. **Install dependencies**
+1. **Install dependencies**
    ```bash
    # Install frontend dependencies
    cd frontend
@@ -70,7 +64,7 @@ A full-featured e-commerce platform built with modern web technologies, offering
    npm install
    ```
 
-3. **Environment Setup**
+2. **Environment Setup**
    - Create a `.env` file in the `backend` directory with:
      ```
      MONGODB_URI=your_mongodb_uri
@@ -80,7 +74,7 @@ A full-featured e-commerce platform built with modern web technologies, offering
      CLOUDINARY_API_SECRET=your_cloudinary_api_secret
      ```
 
-4. **Running the application**
+3. **Running the application**
    ```bash
    # Start backend server (from backend directory)
    npm run dev
